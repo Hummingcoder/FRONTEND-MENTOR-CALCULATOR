@@ -19,5 +19,5 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [https://hummingcoder.git...](https://your-solution-url.com)
+- Solution URL: [https://www.fronte...](https://www.frontendmentor.io/solutions/calculator-solution-pXk1BsMFbT)
 - Live Site URL: [https://hummingcoder.git...](https://hummingcoder.github.io/FRONTEND-MENTOR-CALCULATOR/)
