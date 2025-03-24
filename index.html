@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Calculator app</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <main class="theme1">
+      <section class="header">
+        <p class="logo">calc</p>
+        <article class="theme-switcher">
+          THEME
+          <div class="theme-controls">
+            <div class="theme-numbers">
+              <button class="theme-btn btn1">1</button>
+              <button class="theme-btn btn2">2</button>
+              <button class="theme-btn btn3">3</button>
+            </div>
+            <div class="theme-toggles">
+              <button class="toggle-btn theme1-btn btn1"></button>
+              <button class="toggle-btn theme2-btn btn2"></button>
+              <button class="toggle-btn theme3-btn btn3"></button>
+            </div>
+          </div>
+        </article>
+      </section>
+
+      <section class="display">
+        <input readonly type="text" class="calc-screen-mini" />
+        <input readonly type="text" class="calc-screen" />
+      </section>
+
+      <section class="keypad">
+        <button class="key" value="7"><div>7</div></button>
+        <button class="key" value="8"><div>8</div></button>
+        <button class="key" value="9"><div>9</div></button>
+        <button class="key key-del"><div>DEL</div></button>
+        <button class="key" value="4"><div>4</div></button>
+        <button class="key" value="5"><div>5</div></button>
+        <button class="key" value="6"><div>6</div></button>
+        <button class="key key-operator" value="+"><div>+</div></button>
+        <button class="key" value="1"><div>1</div></button>
+        <button class="key" value="2"><div>2</div></button>
+        <button class="key" value="3"><div>3</div></button>
+        <button class="key key-operator" value="-"><div>-</div></button>
+        <button class="key" value="."><div>.</div></button>
+        <button class="key" value="0"><div>0</div></button>
+        <button class="key key-operator" value="/"><div>/</div></button>
+        <button class="key key-operator" value="*"><div>x</div></button>
+        <button class="key key-reset"><div>RESET</div></button>
+        <button class="key key-equal"><div>=</div></button>
+      </section>
+    </main>
+    <script src="index.js"></script>
+  </body>
+</html>
